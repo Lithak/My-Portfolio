@@ -21,6 +21,10 @@ section, summary, time, mark, audio, video {
 img {
 	width: 100%;
 	height: auto;
+	transition: transform .2s;
+}
+.mg:hover {
+	transform: scale(1.1);
 }
 .me {
 	margin: 0%;
@@ -1972,12 +1976,13 @@ input, select, textarea {
 		letter-spacing: 0.25em;
 		line-height: 4.75em;
 		outline: 0;
-		padding: 0 3.75em;
+		padding: 0 5.75em;
 		position: relative;
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
+		margin: 5px;
 	}
 
 		input[type="submit"]:after,
