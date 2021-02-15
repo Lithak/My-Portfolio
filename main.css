@@ -162,7 +162,10 @@ img {
 	background: #007bb5;
 	color: white;
   }
-
+  .fa-github {
+	background: #060707;
+	color: white;
+  }
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
