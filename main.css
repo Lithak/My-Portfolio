@@ -12,6 +12,7 @@ section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 2;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 100%;
 	font: arial 20;
 	vertical-align: baseline;
@@ -124,17 +125,16 @@ img {
   }
   .overlay:target {
     visibility: visible;
-    opacity: 1;
+    opacity: 5;
   }
   
   .popup {
-    margin: 70px auto;
-    padding: 20px;
+    margin: 60px auto;
+    padding: 10%;
     background: rgb(68, 68, 68);
-    border-radius: 5px;
+    border-radius: 30px;
     width: 50%;
     position: relative;
-    transition: all 5s ease-in-out;
   }
   
   .popup h2 {
@@ -3284,6 +3284,7 @@ input, select, textarea {
 			max-width: 100%;
 			width: 100em;
 			margin-left: 0em;
+			background-color: #29282B;
 		}
 
 			@media screen and (max-width: 1680px) {
@@ -3315,23 +3316,23 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #46424e;
+			background-color: #29282B;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #0c0a11;
+			background-color: #29282B;
 		}
 
 		.wrapper.style2 {
-			background-color: #393947;
+			background-color: #29282B;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #191924;
+			background-color: #29282B;
 		}
 
 		.wrapper.style3 {
-			background-color: #918a8e;
+			background-color: #29282B;
 		}
 
 		.wrapper.style3-alt {
@@ -3812,7 +3813,7 @@ input, select, textarea {
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: rgba(255, 255, 255, 0.35);
+			color: rgba(255, 255, 255, 0.781);
 			display: block;
 			font-size: 0.6em;
 			font-weight: bold;
@@ -3837,6 +3838,7 @@ input, select, textarea {
 
 			#sidebar nav a:before {
 				background: #83d2f1;
+				
 			}
 
 			#sidebar nav a:after {
