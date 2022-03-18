@@ -21,7 +21,7 @@ section, summary, time, mark, audio, video {
 }
 img {
 	width: 100%;
-	height: auto;
+	height: 40%;
 	transition: transform .2s;
 }
 .mg:hover {
