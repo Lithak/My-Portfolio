@@ -32,34 +32,34 @@ img {
 }
 #jsProgress {
 	width: 100%;
-	background-color: rgb(53, 51, 51);
+	background-color: #29282b;
   }
   #jsBar {
-	width: 45%;
+	width: 60%;
 	height: 10px;
 	background-color: #75ecf5;
   }
-  #jsBar:hover {
+  #jsProgress:hover div{
 	background-color: #c282d3;
   }
   
   #htmlProgress {
 	width: 100%;
-	background-color: rgb(53, 51, 51);
+	background-color: #29282b;
   }
   
   #htmlBar {
-	width: 80%;
+	width: 100%;
 	height: 10px;
 	background-color: #75ecf5;
   }
-  #htmlBar:hover {
+  #htmlProgress:hover div{
 	background-color: #c282d3;
   }
 
   #cssProgress {
 	width: 100%;
-	background-color: rgb(53, 51, 51);
+	background-color: #29282b;
   }
   
   #cssBar {
@@ -67,27 +67,27 @@ img {
 	height: 10px;
 	background-color: #75ecf5;
   }
-  #cssBar:hover {
+  #cssProgress:hover div{
 	background-color: #c282d3;
   }
 
   #pyProgress {
 	width: 100%;
-	background-color: rgb(53, 51, 51);
+	background-color: #29282b;
   }
   
   #pyBar {
-	width: 60%;
+	width: 85%;
 	height: 10px;
 	background-color: #75ecf5;
   }
-  #pyBar:hover {
+  #pyProgress:hover div{
 	background-color: #c282d3;
   }
 
   #dbProgress {
 	width: 100%;
-	background-color: rgb(53, 51, 51);
+	background-color: #29282b;
   }
   
   #dbBar {
@@ -95,20 +95,20 @@ img {
 	height: 10px;
 	background-color: #75ecf5;
   }
-  #dbBar:hover {
+  #dbProgress:hover div{
 	background-color: #c282d3;
   }
 
   #reactProgress {
 	width: 100%;
-	background-color: rgb(53, 51, 51);
+	background-color: #29282b;
   }
   #reactBar {
 	width: 80%;
 	height: 10px;
 	background-color: #75ecf5;
   }
-  #reactBar:hover {
+  #reactProgress:hover div{
 	background-color: #c282d3;
   }
 
@@ -129,8 +129,11 @@ img {
   }
   
   .popup {
-    margin: 60px auto;
-    padding: 10%;
+	margin: auto;
+    margin-top: 5%;
+    padding: 5%;
+	padding-top: 3%;
+	padding-bottom: 1%;
     background: rgb(68, 68, 68);
     border-radius: 30px;
     width: 50%;
@@ -2003,7 +2006,7 @@ input, select, textarea {
 		transition: border-color 0.2s ease;
 		background-color: transparent;
 		border: solid 1px !important;
-		border-color: rgb(0, 0, 0) !important;
+		border-color: #75ecf5 !important;
 		border-radius: 3em;
 		color: #ffffff !important;
 		cursor: pointer;
@@ -2037,7 +2040,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease, -webkit-transform 0.2s ease;
 			-ms-transition: opacity 0.2s ease, -ms-transform 0.2s ease;
 			transition: opacity 0.2s ease, transform 0.2s ease;
-			background: #ffffff;
+			background: rgb(255 255 255 / 5%);
 			border-radius: 3em;
 			content: '';
 			height: 100%;
